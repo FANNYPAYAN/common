@@ -258,7 +258,7 @@ module.exports = {
       bedsideLamp: {
         'en-US': 'Bedside Lamp',
         'fr-FR': 'Lampe de chevet',
-        css: 'picto-equipement_chambre_table_chevet',
+        css: 'picto-equipement_chambre_lampes',
       },
       shutters: {
         'en-US': 'Shutters',
@@ -281,7 +281,7 @@ module.exports = {
         default: true,
         'en-US': 'Desk and Chair',
         'fr-FR': 'Bureau et Chaise',
-        css: 'picto-equipement_chambre_bureau',
+        css: 'equipement_chambre_bureau_et_chaise',
       },
       lamp: {
         default: true,
@@ -306,7 +306,7 @@ module.exports = {
         default: true,
         'en-US': 'Storage',
         'fr-FR': 'Rangements',
-        css: 'picto-equipement_chambre_dressing',
+        css: 'picto-equipement_chambre_rangements',
       },
       hangers: {
         'en-US': 'Hangers',
@@ -328,7 +328,7 @@ module.exports = {
       armchair: {
         'en-US': 'Armchair',
         'fr-FR': 'Fauteuil',
-        css: 'picto-equipement_chambre_canape_ou_canapelit',
+        css: 'equipement_chambre_fauteuil',
       },
       sofa: {
         'en-US': 'Sofa',
@@ -393,7 +393,7 @@ module.exports = {
       individualHeating: {
         'en-US': 'Individual heating',
         'fr-FR': 'Chauffage individuel',
-        css: 'picto-equipement_chambre_mobilier_de_terrasse',
+        css: 'equipement_chambre_chauffage',
       },
     },
     'apartment-features-kitchen': {
@@ -412,7 +412,7 @@ module.exports = {
       hotPlates: {
         'en-US': 'Hot-plates',
         'fr-FR': 'Plaques',
-        css: 'picto-inclus_gaz',
+        css: 'equipement_cuisine_plaques',
       },
       dishwasher: {
         'en-US': 'Dishwasher',
@@ -453,7 +453,7 @@ module.exports = {
         default: true,
         'en-US': 'Large pot',
         'fr-FR': 'Faitout',
-        css: 'picto-equipement_cuisine_ustensiles',
+        css: 'picto-equipement_cuisine_faitout',
       },
       plates: {
         default: true,
@@ -489,13 +489,13 @@ module.exports = {
         default: true,
         'en-US': 'Salad Bowl',
         'fr-FR': 'Saladier',
-        css: 'picto-equipement_cuisine_bols',
+        css: 'equipement_cuisine_saladier',
       },
       colander: {
         default: true,
         'en-US': 'Colander',
         'fr-FR': 'Passoire',
-        css: 'picto-equipement_cuisine_bols',
+        css: 'equipement_cuisine_passoire',
       },
       glassBottle: {
         default: true,
@@ -507,7 +507,7 @@ module.exports = {
         default: true,
         'en-US': 'Scissors',
         'fr-FR': 'Ciseaux',
-        css: 'picto-equipement_cuisine_bouteilles_de_verre',
+        css: 'equipement_cuisine_ciseaux',
       },
       corkscrew: {
         default: true,
@@ -519,7 +519,7 @@ module.exports = {
         default: true,
         'en-US': 'Cutting Boards',
         'fr-FR': 'Planches à découper',
-        css: 'picto-equipement_general_planche_a_repasser',
+        css: 'equipement_cuisine_planches_a_decouper',
       },
       storage: {
         default: true,
@@ -544,7 +544,7 @@ module.exports = {
       bathtub: {
         'en-US': 'Bathtub',
         'fr-FR': 'Baignoire',
-        css: 'picto-equipement_salle_de_bain_douche',
+        css: 'equipement_salle_de_bain_baignoire',
       },
       shower: {
         'en-US': 'Shower',
@@ -559,7 +559,7 @@ module.exports = {
       sink: {
         'en-US': 'Sink',
         'fr-FR': 'Lavabo',
-        css: 'picto-equipement_salle_de_bain_douche',
+        css: 'equipement_salle_de_bain_lavabo',
       },
     },
     'apartment-features-general': {
@@ -597,13 +597,13 @@ module.exports = {
         default: true,
         'en-US': 'Mop and Bucket',
         'fr-FR': 'Serpillère et seau',
-        css: 'picto-equipement_general_kit_menage',
+        css: 'equipement_general_serpillere_et_seau',
       },
       scrubBrush: {
         default: true,
         'en-US': 'Scrub Brush',
         'fr-FR': 'Balai Brosse',
-        css: 'picto-equipement_general_kit_menage',
+        css: 'equipement_general_balaibrosse',
       },
       washingMachine: {
         'en-US': 'Washing Machine',
@@ -633,7 +633,7 @@ module.exports = {
       armchair: {
         'en-US': 'Armchair',
         'fr-FR': 'Fauteuil',
-        css: 'picto-equipement_chambre_canape_ou_canape_lit',
+        css: 'equipement_chambre_fauteuil',
       },
       coffeeTable: {
         'en-US': 'Coffee Table',
